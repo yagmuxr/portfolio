@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">folio<b>.</b></div>
+        <ul class="navItems">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <div class="links">
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>#
+          <!-- <img src="object1.png" id="cols0" /> -->
+          <h1>I'm <span class="multiText">Coder</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            magnam?
+          </p>
+          <div class="buttons">
+            <button>Download CV</button>
+            <button>Hire Me</button>
+          </div>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img src="splash.jpg" id="splash" />
+            <img src="img.png.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings: ["Coder", "Engineer", "Designer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
